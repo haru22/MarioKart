@@ -227,14 +227,28 @@ SWIFT_CLASS("_TtC9MarioKart13SceneDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIImageView;
 @class UIPanGestureRecognizer;
+@class UIPinchGestureRecognizer;
+@class UIRotationGestureRecognizer;
+@class UITapGestureRecognizer;
+@class UILongPressGestureRecognizer;
 @class NSBundle;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC9MarioKart14ViewController")
 @interface ViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified kartView0;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified kartView1;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified kartView2;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified kartView3;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified kartView4;
 - (void)viewDidLoad;
 - (IBAction)didPanKartView:(UIPanGestureRecognizer * _Nonnull)sender;
+- (IBAction)didPinchKartView:(UIPinchGestureRecognizer * _Nonnull)sender;
+- (IBAction)didRotateKartView:(UIRotationGestureRecognizer * _Nonnull)sender;
+- (IBAction)didTapKartView:(UITapGestureRecognizer * _Nonnull)sender;
+- (IBAction)didLongPressBackground:(UILongPressGestureRecognizer * _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
