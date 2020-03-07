@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "59071f1c3ad30b680632db07da373a04"
+build_time: [1583541685, 451432000]
+inputs:
+  "/Users/haruna/Documents/iOSdev/MarioKart/MarioKart/ViewController.swift": [1583541685, 357431592]
+  "/Users/haruna/Documents/iOSdev/MarioKart/MarioKart/AppDelegate.swift": [1583540243, 935152613]
+  "/Users/haruna/Documents/iOSdev/MarioKart/MarioKart/SceneDelegate.swift": [1583540243, 945536101]
